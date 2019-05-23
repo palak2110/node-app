@@ -1,6 +1,11 @@
 #!/bin/sh
+<<<<<<< HEAD
 ssh -tt palak@192.241.131.136 <<EOF
  cd ~/node-app
+=======
+ssh -tt root@192.241.131.136 <<EOF
+ cd /home/palak/node-app
+>>>>>>> 0df3867376a50d24d2c34abe2fb61335043ece1f
  git pull
  npm install —-production
  pm2 restart all
