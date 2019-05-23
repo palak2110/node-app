@@ -1,9 +1,13 @@
 #!/bin/sh
 <<<<<<< HEAD
+<<<<<<< HEAD
 ssh -tt palak@192.241.131.136 <<EOF
  cd ~/node-app
 =======
 ssh -tt root@192.241.131.136 <<EOF
+=======
+ssh -tt palak@192.241.131.136 <<EOF
+>>>>>>> ce27a19f856e90b94f32015f90c6c8df7086746e
  cd /home/palak/node-app
 >>>>>>> 0df3867376a50d24d2c34abe2fb61335043ece1f
  git pull
