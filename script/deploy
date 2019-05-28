@@ -1,8 +1,5 @@
 #!/bin/sh
-
-eval `ssh-agent`
-ssh-add
-ssh -tt jenkins@192.241.131.136 
+ 
 eval `ssh-agent`
 ssh-add
 ssh -tt palak@192.241.131.136 <<EOF
