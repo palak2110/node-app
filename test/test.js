@@ -1,8 +1,8 @@
 var request = require('supertest');
 var app = require('../index.js');
 describe('GET /', function() {
- it('respond with Hello everyone @OTS.', function(done) {
+ it('respond with Greeting message', function(done) {
  //navigate to root and check the the response is "hello world"
- request(app).get('/').expect('Hello everyone @OTS.', done);
+ request(app).get('/').expect('Lets confirm with @OTS.', done);
  });
 });
