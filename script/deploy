@@ -5,7 +5,7 @@ ssh-add
 ssh -tt palak@192.241.131.136 <<EOF
  cd /home/palak/node-app
  git pull
- npm install —production
+ npm install — production
  pm2 restart all
  exit
 EOF
